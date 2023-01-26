@@ -1,4 +1,4 @@
-/*
+﻿/*
 Задача №1. Напишите программу, которая на вход принимает два числа и проверяет, является ли первое число квадратом второго.
 a = 25, b = 5 -> да 
 a = 2, b = 10 -> нет 
@@ -16,11 +16,10 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 int c = a / b;
 
-if (c != 0)
+Console.WriteLine(c);
+
+if (c != b)
 Console.WriteLine("не является ");
 
 else
 Console.WriteLine("является ");
-
-
-
