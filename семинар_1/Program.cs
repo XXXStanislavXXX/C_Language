@@ -11,11 +11,10 @@
 
 Console.WriteLine("Введите число: ");
 
-string strNumber = Console.ReadLine();
-
-int number = Convert.ToInt32(strNumber);
+int number = Convert.ToInt32(Console.ReadLine());
 
 int result = number *= number;
 
-Console.WriteLine(result);
+Console.Write("Ваше число: ");
 
+Console.Write(result);
