@@ -12,11 +12,11 @@ if (chislo == 3)
 {
 Console.WriteLine("Среда");
 }
-else if (chislo == 5)
-{
-Console.WriteLine("Пятница");
-}
-else
-{
-  Console.WriteLine("Введено не верное число ");
-}
+    else if (chislo == 5)
+    {
+    Console.WriteLine("Пятница");
+    }
+        else
+        {
+          Console.WriteLine("Введено не верное число ");
+        }
