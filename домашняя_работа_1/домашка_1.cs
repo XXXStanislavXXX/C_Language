@@ -19,8 +19,10 @@ if (chislo_1 > chislo_2)
     System.Console.Write("max = ");
     System.Console.Write(chislo_1);
 }
-else
+else if(chislo_1 < chislo_2)
 {
     System.Console.Write("max = ");
     System.Console.Write(chislo_2);
 }
+else
+System.Console.WriteLine("числа равны");
