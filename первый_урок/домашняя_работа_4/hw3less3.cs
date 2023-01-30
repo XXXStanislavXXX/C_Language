@@ -6,7 +6,7 @@
 */
 
 Console.WriteLine("Введите длину: ");
-int chislo = int.Parse(Console.ReadLine());
+int chislo = Convert.ToInt32(Console.ReadLine());
     
 for (int i = 1; i <= chislo; i++)
     if (i % 2 == 0)
