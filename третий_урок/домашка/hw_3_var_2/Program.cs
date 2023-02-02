@@ -10,19 +10,20 @@
 
 System.Console.WriteLine("Enter your number ");
 int num = int.Parse(Console.ReadLine());
-int num1 = num;
+int num_primal = num;
 int rev_num = 0;
+
 while (num > 0) 
 {
     rev_num = rev_num * 10 + num % 10;
     num = num / 10;
 }
 
-if (num1 == rev_num)
+if (num_primal == rev_num)
 {
-    System.Console.WriteLine("Your number  is a palindrome");
+    System.Console.WriteLine("Your number " + num_primal + " is a palindrome");
 }
 else
 {
-    System.Console.WriteLine("Your number is not a palindrome");
+    System.Console.WriteLine("Your number " + num_primal + " is not a palindrome");
 }
