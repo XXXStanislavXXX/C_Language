@@ -5,6 +5,8 @@
 23432 -> да
 */
 
+#nullable disable
+
 System.Console.WriteLine("Enter your number ");
 int num = int.Parse(Console.ReadLine());
 int num_compare = Math.Abs(num);
