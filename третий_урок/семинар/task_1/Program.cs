@@ -3,6 +3,8 @@
 причем X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
 */
 
+#nullable disable
+
 System.Console.WriteLine("Enter number x ");
 int num_x = int.Parse(Console.ReadLine());
 

@@ -8,6 +8,8 @@
 23432 -> да
 */
 
+#nullable disable
+
 int digit;
 
 while (true)

@@ -3,6 +3,8 @@
 от 1 до N.
 */
 
+#nullable disable
+
 System.Console.WriteLine("enter nubler ");
 int digit = int.Parse(Console.ReadLine());
 int start = 1;

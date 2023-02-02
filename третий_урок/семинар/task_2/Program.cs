@@ -3,6 +3,8 @@
 показывает диапазон возможных координат точек в этой четверти (x и y).
 */
 
+#nullable disable
+
 int quarter;
 
 while (true)

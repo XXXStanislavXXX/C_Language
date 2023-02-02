@@ -5,6 +5,8 @@
 5 -> 1, 8, 27, 64, 125
 */
 
+#nullable disable
+
 System.Console.WriteLine("enter nubler ");
 int digit = int.Parse(Console.ReadLine());
 int start = 1;
