@@ -3,6 +3,8 @@
 на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 */
 
+#nullable disable
+
 System.Console.WriteLine("enter coordinates point xA ");
 int xA = int.Parse(Console.ReadLine());
 

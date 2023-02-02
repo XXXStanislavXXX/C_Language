@@ -4,6 +4,8 @@ A (3,6); B (2,1) -> 5,09
 A (7,-5); B (1,-1) -> 7,21
 */
 
+#nullable disable
+
 System.Console.WriteLine("enter coordinates point xA ");
 int xA = int.Parse(Console.ReadLine());
 
