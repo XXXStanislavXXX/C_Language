@@ -11,20 +11,20 @@
 
 #nullable disable
 
-Console.WriteLine("До какого числа считать ряд Фибоначчи?");
+Console.WriteLine("Your Fib Digit ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int perv = 0;
-Console.Write(" " + perv);
-int vtor = 1;
-Console.Write(" " + vtor);
+int first = 0;
+Console.Write(" " + first);
+int second = 1;
+Console.Write(" " + second);
 int sum = 0;
 
 while (number >= sum)
 {
-    sum = perv + vtor;
+    sum = first + second;
     Console.Write(" " + sum);                
-    perv = vtor;
-    vtor = sum;                
+    first = second;
+    second = sum;                
 }
 
